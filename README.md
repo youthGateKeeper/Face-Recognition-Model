@@ -66,4 +66,3 @@ https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/utils.py 
 https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/Collection.py <br>
 
 ## 실행영상
-
