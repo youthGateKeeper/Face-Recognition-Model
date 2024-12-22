@@ -47,12 +47,12 @@ pip install streamlit
 ## 파일 구조
 AI/
 ├── model/
-│   └──
-│   └──
-│   └──
-│   └──
-│   └──
-│   └──
+│   └──age-gender-recognition-retail-0013.bin
+│   └──age-gender-recognition-retail-0013.xml
+│   └──emotions-recognition-retail-0003.bin
+│   └──emotions-recognition-retail-0003.xml
+│   └──ace-detection-adas-0001.bin
+│   └──ace-detection-adas-0001.xml
 ├── app.py
 ├── utils.py
 └── Collection.py
