@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 50px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 헤더 */
+
+header {
+  background-color: rgb(169, 226, 250);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  padding: 15px;
+}
+
+/* 푸터 */
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 로그인&회원가입 */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 90px);
+}
+
+.login {
+  text-align: center;
+  padding: 60px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.inputG {
+  margin: 5px;
+}
+
+.inputStyle {
+  padding: 7px;
+  width: 200px;
+  margin: 5px;
+}
+
+.login button {
+  margin: 10px 5px;
+  /* background-color: rgb(255, 255, 129); */
+  background-color: black;
+  color: white;
+  border: 0;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+#FaceCam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 90px);
+  flex-direction: column;
+}
+
+#FaceCam > div {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+}
+
+#emotion {
+    margin: 10px 0;
+}
+
+#FaceCam > a {
+    padding: 10px;
+    background-color: aqua;
+}
