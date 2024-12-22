@@ -123,7 +123,14 @@ footer {
 
 .mainPage > div {
   width: 70%;
-  background-color: aqua;
+}
+
+.mainPage > div > div {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 30px 0;
+  width: 90%;
 }
 
 .mainPage h1,
@@ -132,6 +139,10 @@ footer {
 }
 
 .main_img img {
-  width: 300px;
-  height: 300px;
+  width: 30%;
+  height: 250px;
+}
+
+.main_img {
+  margin: 10px 0;
 }
