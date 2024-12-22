@@ -27,7 +27,7 @@ K-SDGs 목표 11: 포용적이고 안전하며 지속 가능한 도시 조성이
 ### - 웹캠을 통해 표정으로 사용자 감정 인식 가능. <br>
 ![image](https://github.com/user-attachments/assets/b0ad008d-226e-4e0c-be4b-72cd39f8a119) <br>
 ### - Gemini-Bot을 활용하여 사이트에서 대화가 가능한 채팅 시스템
-<img width="730" alt="image" src="https://github.com/user-attachments/assets/7655037b-2d37-4fb3-8817-daecc0dbfe9c"/><br>
+<img width="715" alt="image" src="https://github.com/user-attachments/assets/4aad104b-9fbb-4d5d-bfb6-dbf5c61f81bc" /><br>
 
 ## 기술스택
 - 프론트엔드: php , JavaScript
