@@ -64,3 +64,6 @@ AI/
 https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/app.py <br>
 https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/utils.py <br>
 https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/Collection.py <br>
+
+## 실행영상
+{% include video id="D39iLew1eO0" provider="youtube" %}
