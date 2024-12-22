@@ -13,7 +13,7 @@
 청소년들이 ai에게 감정을 자유롭게 나눌 수 있는 친구처럼 다가가는 챗봇이자 감정을 인식해주기 때문이다. 
 ## 문제인식
 ![image](https://github.com/user-attachments/assets/83b7a6c2-fa96-468d-9998-49dc455620da)<br>
-기존 심리상담은 전문가가 부족한 지역에서는 접근이 어려워 상담을 받지 못하는 문제가 있습니다. 또한, 대기 시간이 길어 즉각적인 도움이 필요한 상황에서는 적시에 지원을 받기 어려운 점이 있습니다. 상담사와의 심리적 거리감도 큰 장애물로 작용하여, 일부 사람들은 자신의 감정을 진지하게 털어놓는 데 어려움을 겪습니다. 이러한 문제로 상담의 효과가 저조할 수 있으며, 상담을 계속할 동기가 부족해질 수 있습니다. 결과적으로, 상담 서비스의 접근성과 실효성에 한계가 있는 상황이 발생합니다.<br>
+기존 심리상담은 전문가가 부족한 지역에서는 접근이 어려워 상담을 받지 못하며 상담사와의 심리적 거리감으로 일부 사람들은 자신의 감정을 진지하게 털어놓는 데 어려움을 겪습니다. 이러한 문제로 상담의 효과가 저조할 수 있으며, 상담을 계속할 동기가 부족해질 수 있습니다. 결과적으로, 상담 서비스의 접근성과 실효성에 한계가 있는 상황이 발생합니다.<br>
 
 K-SDGs 목표 3: 모두를 위한 건강한 삶 보장 및 웰빙 증진<br>
 K-SDGs 목표 4: 포용적이고 공평한 양질의 교육 보장<br>
@@ -28,6 +28,8 @@ K-SDGs 목표 11: 포용적이고 안전하며 지속 가능한 도시 조성이
 ![image](https://github.com/user-attachments/assets/b0ad008d-226e-4e0c-be4b-72cd39f8a119) <br>
 ### - Gemini-Bot을 활용하여 사이트에서 대화가 가능한 채팅 시스템
 <img width="715" alt="image" src="https://github.com/user-attachments/assets/4aad104b-9fbb-4d5d-bfb6-dbf5c61f81bc" /><br>
+### 실행영상
+[![testvideo](http://img.youtube.com/vi/CuBg78KK1QM/0.jpg)](https://youtu.be/CuBg78KK1QM=0s) 
 
 ## 기술스택
 - 프론트엔드: Python
@@ -68,9 +70,6 @@ AI/
 https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/app.py <br>
 https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/utils.py <br>
 https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/Collection.py <br>
-
-## 실행영상
-[![testvideo](http://img.youtube.com/vi/CuBg78KK1QM/0.jpg)](https://youtu.be/CuBg78KK1QM=0s) 
 
 ---
 
