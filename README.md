@@ -30,7 +30,7 @@ K-SDGs 목표 11: 포용적이고 안전하며 지속 가능한 도시 조성이
 <img width="715" alt="image" src="https://github.com/user-attachments/assets/4aad104b-9fbb-4d5d-bfb6-dbf5c61f81bc" /><br>
 
 ## 기술스택
-- 프론트엔드: php , JavaScript
+- 프론트엔드: Python
 - AI백엔드: Python
 
 ---
