@@ -31,8 +31,8 @@ K-SDGs 목표 11: 포용적이고 안전하며 지속 가능한 도시 조성이
 
 ---
   
-## 프로젝트 실행 방법
-### VSC Terminal
+# 프로젝트 실행 방법
+## VSC Terminal
 ```
 conda create --name Locals python==3.12.0 anaconda 
 conda activate Locals
@@ -44,4 +44,16 @@ pip install ipywidgets==8.1.2
 pip install tensorflow==2.16.1
 pip install streamlit
 ```
+## 파일 구조
+AI/
+├── model/
+│   └──
+│   └──
+│   └──
+│   └──
+│   └──
+│   └──
+├── app.py
+├── utils.py
+└── Collection.py
 
