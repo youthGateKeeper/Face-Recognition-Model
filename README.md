@@ -47,6 +47,7 @@ pip install opencv-python==4.9.0.80
 pip install ipywidgets==8.1.2
 pip install tensorflow==2.16.1
 pip install streamlit
+pip install google-generativeai
 ```
 ## 파일 구조
 ```
@@ -69,8 +70,7 @@ https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/utils.py 
 https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/Collection.py <br>
 
 ## 실행영상
-
-https://www.youtube.com/watch?v=CuBg78KK1QM
+[![testvideo](http://img.youtube.com/vi/CuBg78KK1QM/0.jpg)](https://youtu.be/CuBg78KK1QM=0s) 
 
 ---
 
