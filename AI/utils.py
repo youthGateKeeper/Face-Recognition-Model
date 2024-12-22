@@ -63,8 +63,9 @@ def draw_faceboxes(image, face_boxes, scores):
 
 def draw_emotions(face_boxes, image, show_image):
     EMOTION_NAMES = ['neutral', 'happy', 'sad', 'surprise', 'anger']
-    for i in range(len(face_boxes)):
+    emotion_indexes = []  # index 값을 저장할 리스트 추가
 
+    for i in range(len(face_boxes)):
         xmin, ymin, xmax, ymax = face_boxes[i]
         face = image[ymin:ymax, xmin:xmax]
 
@@ -73,13 +74,17 @@ def draw_emotions(face_boxes, image, show_image):
 
         results_emo = results_emo.squeeze()
         index = np.argmax(results_emo)
+        emotion_indexes.append(index)  # index 값을 리스트에 추가
 
         text = EMOTION_NAMES[index]
         cv2.putText(show_image, text, (xmin, ymin), cv2.FONT_HERSHEY_SIMPLEX, 5, (0, 200, 0), 2)
 
+    return emotion_indexes  # 감정 인식의 index 값을 반환
+
 def draw_age_gender(face_boxes, image):
     EMOTION_NAMES = ['neutral', 'happy', 'sad', 'surprise', 'anger']
     show_image = image.copy()
+    emotion_indexes = []  # index 값을 저장할 리스트 추가
     for i in range(len(face_boxes)):
         xmin, ymin, xmax, ymax = face_boxes[i]
         xmin = max(0, xmin)
@@ -87,20 +92,23 @@ def draw_age_gender(face_boxes, image):
         xmax = min(image.shape[1], xmax)
         ymax = min(image.shape[0], ymax)
         face = image[ymin:ymax, xmin:xmax]
-        #--- emotion ---
+
+        # --- emotion ---
         input_image = preprocess(face, input_layer_emo)
         results_emo = compiled_model_emo([input_image])[output_layer_emo]
         results_emo = results_emo.squeeze()
         index = np.argmax(results_emo)
         if index >= len(EMOTION_NAMES):
             index = 0
-        #--- age and gender ---
+        emotion_indexes.append(EMOTION_NAMES[index])  # index 값을 리스트에 추가
+        
+        # --- age and gender ---
         input_image_ag = preprocess(face, input_layer_ag)
         results_ag = compiled_model_ag([input_image_ag])
         age, gender = results_ag[1], results_ag[0]
         age = np.squeeze(age)
         age = int(age * 100)
-        box_color = (255,255,255)
+        box_color = (255, 255, 255)
         gender = np.squeeze(gender)
         fontScale = max(0.5, image.shape[1] / 750)
         text = f"{EMOTION_NAMES[index]}"
@@ -108,7 +116,7 @@ def draw_age_gender(face_boxes, image):
                     cv2.FONT_HERSHEY_SIMPLEX, fontScale, (0, 200, 0), 2)
         cv2.rectangle(show_image, (xmin, ymin), (xmax, ymax), box_color, 2)
 
-    return show_image
+    return show_image, emotion_indexes
 
 def predict_image(image, conf_threshold):
     input_image = preprocess(image, input_layer_face)
