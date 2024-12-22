@@ -70,7 +70,7 @@ https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/Collectio
 
 ## 실행영상
 
-[![test](http://img.youtube.com/vi/'CuBg78KK1QM'/0.jpg)](https://youtu.be/'CuBg78KK1QM')
+https://www.youtube.com/watch?v=CuBg78KK1QM
 
 ---
 
