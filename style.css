@@ -108,5 +108,7 @@ footer {
 
 #FaceCam > a {
     padding: 10px;
-    background-color: aqua;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
