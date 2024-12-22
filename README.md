@@ -70,11 +70,11 @@ https://github.com/youthGateKeeper/Face-Recognition-Model/blob/main/AI/Collectio
 
 ## 실행영상
 
-https://youtu.be/CuBg78KK1QM
+[![test](http://img.youtube.com/vi/'CuBg78KK1QM'/0.jpg)](https://youtu.be/'CuBg78KK1QM')
 
 ---
 
 ## 추후개발 사항
 - Web AI연동
 - 프롬포트 자동작성
-- 
+- 스스로 작성 가능 일기 기록페이지 
