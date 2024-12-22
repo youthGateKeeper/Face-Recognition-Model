@@ -10,5 +10,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute();
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    echo "로그인이 완료되었습니다.";
+    if(!$result) {
+        echo "아이디와 비밀번호를 확인해주세요!";
+    } else {
+        $_SESSION["user_idx"] = $result["user_idx"];
+        echo "로그인이 완료되었습니다.";
+    }
+
 }
